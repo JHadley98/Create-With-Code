@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    // Initialise variables
     [SerializeField][Header("Vehicle Controls")]
     private float moveSpeed = 20.0f;
 

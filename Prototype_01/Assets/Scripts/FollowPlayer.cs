@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
+    // Initialise private variables
     [Header("Reference Player")]
-    public GameObject player;
+    [SerializeField]
+    private GameObject player;
 
     [Header("Camera Offset")]
-    public Vector3 offset;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private Vector3 offset;
 
     // Update is called once per frame
     void LateUpdate()
